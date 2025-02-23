@@ -35,14 +35,22 @@ p {
   font-size: 24px;
 }
 
-h2:nth-child(1) {
+.we {
   text-align: right;
   color: #141626;
 }
 
-h2:nth-child(2) {
+.we.in-veiw {
+  animation: sec_title_in_right 1.5s ease;
+}
+
+.pro {
   text-align: left;
   color: #a9adc7;
+}
+
+.pro.in-veiw {
+  animation: sec_title_in_left 1.5s ease;
 }
 
 .job-title {
@@ -110,4 +118,26 @@ em {
 }
 .navbar li {
   float: left;
+}
+
+@keyframes sec_title_in_right {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes sec_title_in_left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

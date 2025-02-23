@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  padding: 3rem;
+  padding: 1rem;
 }
 
 section:nth-child(even) {

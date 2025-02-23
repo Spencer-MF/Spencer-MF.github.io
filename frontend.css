@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  position: relative;
+  background-color: #141626;
+}
+
+section {
+  padding: 3rem;
+}
+
+section:nth-child(even) {
+  background-color: #141626;
+}
+
+section:nth-child(odd) {
+  background-color: #b4b8d4;
+}
+
+h1 {
+  color: #b4b8d4;
+  font-size: 75px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+h2:nth-child(1) {
+  text-align: right;
+  color: #141626;
+}
+
+h2:nth-child(2) {
+  text-align: left;
+  color: #a9adc7;
+}
+
+.job-title {
+  color: #282d4d;
+  size: 24px;
+}
+
+.project-title {
+  color: #878ba0;
+  text-align: right;
+  size: 24px;
+}
+
+.objective {
+  font-weight: bold;
+  color: #d1f3fb;
+  width: 75%;
+  margin-top: 75px;
+  margin-bottom: 12.5%;
+}
+
+.work-desc {
+  color: #282d4d;
+  margin-right: 35%;
+}
+
+.project-desc {
+  color: #878ba0;
+  margin-left: 35%;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 45px;
+  float: left;
+}
+
+em {
+  font-style: normal;
+}
+
+.navbar ul {
+  background-color: rgb(192, 80, 80);
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navbar a {
+  color: #d1f3fb;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(200, 142, 142);
+}
+.navbar li {
+  float: left;
+}

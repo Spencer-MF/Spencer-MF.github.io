@@ -1,3 +1,3 @@
 function contactMe(){
-    alert('Fuck you no!');
+    alert('Sorry this is not available right now.');
 }

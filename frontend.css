@@ -40,7 +40,7 @@ p {
   color: #141626;
 }
 
-.we.in-veiw {
+#we.in-veiw {
   animation: sec_title_in_right 1.5s ease;
 }
 
@@ -49,7 +49,7 @@ p {
   color: #a9adc7;
 }
 
-.pro.in-veiw {
+#pro.in-veiw {
   animation: sec_title_in_left 1.5s ease;
 }
 
@@ -92,6 +92,21 @@ img {
 
 em {
   font-style: normal;
+}
+
+.pdf-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#resume-pdf {
+  width: 700px;
+  height: 1810px;
+  margin: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .navbar ul {

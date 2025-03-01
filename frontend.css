@@ -12,6 +12,8 @@
   --nav-txt: #d1f3fb;
   --nav-color: rgb(192, 80, 80);
   --nav-highlight: rgb(200, 142, 142);
+  --delay-1: 1.5s;
+  --delay-2: 0.5;
 }
 
 body {
@@ -70,19 +72,19 @@ p {
 }
 
 .we.inveiw {
-  animation: sec_title_in_right 1.5s ease;
+  animation: sec_title_in_right var(--delay-1) ease;
 }
 
 .textright.inveiw {
-  animation: sec_title_in_right 1.5s ease;
+  animation: sec_title_in_right var(--delay-1) ease;
   animation-fill-mode: backwards;
-  animation-delay: 0.5s;
+  animation-delay: var(--delay-2);
 }
 
 .textleft.inveiw {
-  animation: sec_title_in_left 1.5s ease;
+  animation: sec_title_in_left var(--delay-1) ease;
   animation-fill-mode: backwards;
-  animation-delay: 0.5s;
+  animation-delay: var(--delay-2);
 }
 
 .pro {
@@ -97,11 +99,11 @@ p {
 }
 
 .pro.inveiw {
-  animation: sec_title_in_left 1.5s ease;
+  animation: sec_title_in_left var(--delay-1) ease;
 }
 
 .sr.inveiw {
-  animation: sec_title_in_right 1.5s ease;
+  animation: sec_title_in_right var(--delay-1) ease;
 }
 
 .job-title {

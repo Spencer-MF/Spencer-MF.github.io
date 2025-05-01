@@ -4,6 +4,8 @@
   --h2-size: 48px;
   --h3-size: 36px;
   --h4-size: 24px;
+  --pdf-page-size: 905px;
+  --resume-page-num: 3;
   --light-color: #b4b8d4;
   --light-txt: #878ba0;
   --light-accent: #d1f3fb;
@@ -157,7 +159,7 @@ em {
 
 #resume-pdf {
   width: 700px;
-  height: 1810px;
+  height: calc(var(--pdf-page-size) * var(--resume-page-num));
   margin: 0;
   display: block;
   margin: 0 auto;

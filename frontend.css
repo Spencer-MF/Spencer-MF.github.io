@@ -94,14 +94,23 @@ p {
   color: var(--light-color);
 }
 
-.sr {
+.research {
   text-align: right;
   color: var(--dark-color);
+}
+
+.sr {
+  text-align: left;
+  color: var(--light-color);
   padding-bottom: 50px;
 }
 
 .pro.inveiw {
   animation: sec_title_in_left var(--delay-1) ease;
+}
+
+.research.inveiw {
+  animation: sec_title_in_right var(--delay-1) ease;
 }
 
 .sr.inveiw {
@@ -116,6 +125,11 @@ p {
 .project-title {
   color: var(--light-color);
   text-align: right;
+  size: 24px;
+}
+
+.research-title {
+  color: var(--dark-color);
   size: 24px;
 }
 
@@ -135,6 +149,11 @@ p {
 .project-desc {
   color: var(--light-txt);
   margin-left: 35%;
+}
+
+.research-desc {
+  color: var(--dark-txt);
+  margin-right: 35%;
 }
 
 img {
